@@ -27,6 +27,6 @@ Route::prefix('program')->group(function(){
     Route::get('/skin-health-program', [ProgramController::class, 'skinHealth']);
 });
 
-Route::get('/story', [AboutUsController::class, 'aboutus']);
+Route::get('/story', [AboutUsController::class, 'index']);
 
 Route::get('/contact', [ContactUsController::class, 'contactus']);
