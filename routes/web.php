@@ -29,4 +29,4 @@ Route::prefix('program')->group(function(){
 
 Route::get('/story', [AboutUsController::class, 'index']);
 
-Route::get('/contact', [ContactUsController::class, 'contactus']);
+Route::get('/contact', [ContactUsController::class, 'index']);
